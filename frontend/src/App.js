@@ -4,7 +4,7 @@ function App() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch("https://your-backend.onrender.com/api/message")
+    fetch("https://quick-test-85fx.onrender.com/api/message")
       .then((res) => res.json())
       .then((data) => setMessage(data.message))
       .catch(console.error);
